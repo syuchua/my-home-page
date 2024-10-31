@@ -7,7 +7,6 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Github, ExternalLink } from "lucide-react"
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { useTranslation } from "next-i18next"
 
 // 从 GitHub 获取项目描述的函数
 const getGitHubDescription = async (repo: string) => {
@@ -21,7 +20,7 @@ const getGitHubDescription = async (repo: string) => {
 }
 
 export default function Component() {
-  const { t } = useTranslation("common")
+  // const { t } = useTranslation("common")
   const [projectDescriptions, setProjectDescriptions] = useState<{ [key: string]: string }>({})
 
   const projects = [
