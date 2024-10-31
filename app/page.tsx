@@ -50,21 +50,21 @@ export default function Component() {
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 p-8">
       <div className="max-w-4xl mx-auto space-y-8">
         <header className="text-center">
-          <h1 className="text-4xl font-bold text-gray-800">{t("彧初的个人主页")}</h1>
-          <p className="text-xl text-gray-600">{t("description")}</p>
+          <h1 className="text-4xl font-bold text-gray-800">"彧初的个人主页"</h1>
+          <p className="text-xl text-gray-600">"description"</p>
         </header>
 
         <Tabs defaultValue="about" className="w-full">
           <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="about">{t("about")}</TabsTrigger>
-            <TabsTrigger value="projects">{t("projects")}</TabsTrigger>
-            <TabsTrigger value="blog">{t("blog")}</TabsTrigger>
-            <TabsTrigger value="stacks">{t("stacks")}</TabsTrigger>
+            <TabsTrigger value="about">"about"</TabsTrigger>
+            <TabsTrigger value="projects">"projects"</TabsTrigger>
+            <TabsTrigger value="blog">"blog"</TabsTrigger>
+            <TabsTrigger value="stacks">"stacks"</TabsTrigger>
           </TabsList>
           <TabsContent value="about">
             <Card>
               <CardHeader>
-                <CardTitle>{t("aboutMe")}</CardTitle>
+                <CardTitle>"aboutMe"</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
@@ -128,7 +128,7 @@ export default function Component() {
           <TabsContent value="stacks">
             <Card>
               <CardHeader>
-                <CardTitle>{t("stacks")}</CardTitle>
+                <CardTitle>"stacks"</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
