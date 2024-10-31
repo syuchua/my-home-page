@@ -11,10 +11,9 @@ import { useTranslation } from "next-i18next"
 
 // 从 GitHub 获取项目描述的函数
 const getGitHubDescription = async (repo: string) => {
-  const token = "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"; // 替换为你的 GitHub 个人访问令牌
   const response = await fetch(`https://api.github.com/repos/syuchua/${repo}`, {
     headers: {
-      Authorization: `token ${token}`
+      Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`
     }
   });
   const data = await response.json();
@@ -134,19 +133,14 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Python</Badge>
-                  <Badge variant="secondary">Golang</Badge>
-                  <Badge variant="secondary">Websocket</Badge>
-                  <Badge variant="secondary">Docker</Badge>
-                  <Badge variant="secondary">Nginx</Badge>
+                  <Badge variant="secondary">React</Badge>
+                  <Badge variant="secondary">Next.js</Badge>
+                  <Badge variant="secondary">TypeScript</Badge>
+                  <Badge variant="secondary">Node.js</Badge>
+                  <Badge variant="secondary">Express</Badge>
                   <Badge variant="secondary">MongoDB</Badge>
-                  <Badge variant="secondary">Mysql</Badge>
+                  <Badge variant="secondary">Tailwind CSS</Badge>
                   <Badge variant="secondary">Git</Badge>
-                  <Badge variant="secondary">Linux</Badge>
-                  <Badge variant="secondary">ROS</Badge>
-                  <Badge variant="secondary">MATLAB</Badge>
-                  <Badge variant="secondary">Solidworks</Badge>
-                  <Badge variant="secondary">AutoCAD</Badge>
                 </div>
               </CardContent>
             </Card>
