@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm install --legacy-peer-deps"
+    "preinstall": "npx npm@9.6.7 install --legacy-peer-deps"
   },
   "dependencies": {
     "@radix-ui/react-scroll-area": "^1.2.0",
