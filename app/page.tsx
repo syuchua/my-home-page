@@ -50,16 +50,16 @@ export default function Component() {
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 p-8">
       <div className="max-w-4xl mx-auto space-y-8">
         <header className="text-center">
-          <h1 className="text-4xl font-bold text-gray-800">"彧初的个人主页"</h1>
-          <p className="text-xl text-gray-600">"description"</p>
+          <h1 className="text-4xl font-bold text-gray-800">彧初的个人主页</h1>
+          <p className="text-xl text-gray-600">description</p>
         </header>
 
         <Tabs defaultValue="about" className="w-full">
           <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="about">"about"</TabsTrigger>
-            <TabsTrigger value="projects">"projects"</TabsTrigger>
-            <TabsTrigger value="blog">"blog"</TabsTrigger>
-            <TabsTrigger value="stacks">"stacks"</TabsTrigger>
+            <TabsTrigger value="about">about</TabsTrigger>
+            <TabsTrigger value="projects">projects</TabsTrigger>
+            <TabsTrigger value="blog">blog</TabsTrigger>
+            <TabsTrigger value="stacks">stacks</TabsTrigger>
           </TabsList>
           <TabsContent value="about">
             <Card>
