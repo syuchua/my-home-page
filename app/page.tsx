@@ -64,7 +64,7 @@ export default function Component() {
           <TabsContent value="about">
             <Card>
               <CardHeader>
-                <CardTitle>"aboutMe"</CardTitle>
+                <CardTitle>aboutMe</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
@@ -128,7 +128,7 @@ export default function Component() {
           <TabsContent value="stacks">
             <Card>
               <CardHeader>
-                <CardTitle>"stacks"</CardTitle>
+                <CardTitle>stacks</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
