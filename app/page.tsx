@@ -15,6 +15,8 @@ const getGitHubDescription = async (repo: string) => {
       Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`
     }
   });
+  // 在获取数据的组件中添加
+  console.log('GitHub Token:', process.env.NEXT_PUBLIC_GITHUB_TOKEN?.slice(0, 5) + '...');
   const data = await response.json();
   return data.description || "No description available";
 }
