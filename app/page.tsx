@@ -132,14 +132,21 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">Next.js</Badge>
-                  <Badge variant="secondary">TypeScript</Badge>
-                  <Badge variant="secondary">Node.js</Badge>
-                  <Badge variant="secondary">Express</Badge>
-                  <Badge variant="secondary">MongoDB</Badge>
-                  <Badge variant="secondary">Tailwind CSS</Badge>
+                  <Badge variant="secondary">Python</Badge>
+                  <Badge variant="secondary">Websocket</Badge>
+                  <Badge variant="secondary">Flask</Badge>
+                  <Badge variant="secondary">Golang</Badge>
+                  <Badge variant="secondary">ROS</Badge>
+                  <Badge variant="secondary">Docker</Badge>
                   <Badge variant="secondary">Git</Badge>
+                  <Badge variant="secondary">Nginx</Badge>
+                  <Badge variant="secondary">Linux</Badge>
+                  <Badge variant="secondary">MySQL</Badge>
+                  <Badge variant="secondary">Redis</Badge>
+                  <Badge variant="secondary">MongoDB</Badge>
+                  <Badge variant="secondary">AutoCAD</Badge>
+                  <Badge variant="secondary">SolidWorks</Badge>
+                  <Badge variant="secondary">MATLAB</Badge>
                 </div>
               </CardContent>
             </Card>
