@@ -1,4 +1,4 @@
-import i18n from './next-i18next.config.js'
+// import i18n from './next-i18next.config.js'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -9,7 +9,6 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_GITHUB_TOKEN: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
   },
-  i18n: i18n.i18n
 }
 
 export default nextConfig 
