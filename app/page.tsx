@@ -53,7 +53,7 @@ export default function Component() {
       <div className="max-w-4xl mx-auto space-y-8">
         <header className="text-center">
           <h1 className="text-4xl font-bold text-gray-800">彧初的个人主页</h1>
-          <p className="text-xl text-gray-600">description</p>
+          <p className="text-xl text-gray-600">一年灯火一年诗，总被流光抛掷。</p>
         </header>
 
         <Tabs defaultValue="about" className="w-full">
@@ -70,7 +70,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  你好！我是彧初，目前是一名机器人工程的大四学生。我对机器人技术充满热情，专注于开发和设计智能系统。在我的学习过程中，我参与了多个项目，包括自主导航机器人、机械臂控制系统以及多传感器融合技术的应用。我熟悉多种编程语言和工具，如 Python、C++、ROS，以及常用的开发平台如 Arduino 和 Raspberry Pi。
+                  你好！我是彧初，目前是一名机器人工程的大四学生。我对机器人技术充满热情，专注于开发和设计智能系统。在我的学习过程中，我参与了多个项目，包括自主导航机器人、机械臂控制系统以及多传感器融合技术的应用。我熟悉多种编程语言和工具，如 Python、C++、ROS，以及Docker、Git、Nginx等。
                 </p>
                 <p className="text-gray-700">
                   除了学术项目，我还积极参与开源社区，贡献了多个开源项目，并在 GitHub 上分享我的工作。我相信通过开源和协作，我们可以共同推动技术的发展。我也喜欢写博客，记录我的学习和开发经验，希望能帮助更多的人。
